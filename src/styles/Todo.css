@@ -1,0 +1,19 @@
+.todoItem {
+    height: 55px;
+    box-shadow: 0px 2px whitesmoke;
+}
+.items-left{
+    height: 55px;
+    box-shadow:rgba(3, 3, 3, 0.2) 5px 10px, rgba(240, 46, 170, 0.1) 10px 20px, rgba(240, 46, 170, 0.05) 15px 25px;
+}
+.delete-icon {
+    visibility: hidden;
+    cursor: pointer;
+    font-weight: 500;
+    color: red;
+    margin-left: 8px;
+  }
+  
+  .todoItem:hover .delete-icon {
+    visibility: visible;
+  }

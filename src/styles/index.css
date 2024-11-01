@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Home-body {
+    background-color: antiquewhite;
+}
